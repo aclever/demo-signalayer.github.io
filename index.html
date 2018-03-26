@@ -20,20 +20,28 @@
     <!-- font-awesome -->
     <link href="css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="css/popup.css" rel="stylesheet" type="text/css">
-
-    <script type='text/javascript'>
-window.Tooltip||function(t,e){var o={
-url:"https://cdn.signalayer.com/static/player.js",
-key:"kG8C8tXgksIamU4wpKJtBIbYcq5occyJ2TKXdDhfmo-",
-async:true
-};
-
-window.Tooltip={cs:[],_apiKey:o.key};for(
-var r=["identify","goal","updateUserData","start","stop","refresh","show","hide","on"],
-i={},n=0;n<r.length;n++){var a=r[n];i[a]=function(t){return function(){var e=Array.prototype.slice.call(arguments);
-window.Tooltip.cs.push({method:t,args:e})}}(a)}window.Tooltip.API=i;var n=t.createElement(e),s=t.getElementsByTagName(e)[0];
-n.type="text/javascript",n.async=o.async,s.parentNode.insertBefore(n,s),n.src=o.url}(document,"script");
-</script>
+    
+<!--- Signalayer player -->
+    <script type='text/javascript'> window.Signalayer || function (t, e) {
+        var o = {
+            url: "https://cdn.signalayer.com/static/player.js",
+            key: "kG8C8tXgksIamU4wpKJtBIbYcq5occyJ2TKXdDhfmo-",
+            async: true
+        };
+        window.Signalayer = {cs: [], _apiKey: o.key};
+        for (var r = ["identify", "goal", "updateUserData", "start", "stop", "refresh", "show", "hide", "on"], i = {}, n = 0; n < r.length; n++) {
+            var a = r[n];
+            i[a] = function (t) {
+                return function () {
+                    var e = Array.prototype.slice.call(arguments);
+                    window.Signalayer.cs.push({method: t, args: e})
+                }
+            }(a)
+        }
+        window.Signalayer.API = i;
+        var n = t.createElement(e), s = t.getElementsByTagName(e)[0];
+        n.type = "text/javascript", n.async = o.async, s.parentNode.insertBefore(n, s), n.src = o.url
+    }(document, "script"); </script> <!--- Signalayer player -->
 
     <style>
         .learn-more-link {
