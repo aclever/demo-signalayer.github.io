@@ -43,6 +43,12 @@
         n.type = "text/javascript", n.async = o.async, s.parentNode.insertBefore(n, s), n.src = o.url
     }(document, "script"); </script> <!--- Signalayer player -->
 
+    <script>
+    Signalayer.API.on("ReserveSpot", function(){
+        alert("You're on the list!");
+    });
+    </script>
+    
     <style>
         .learn-more-link {
             color: #6bb551;
@@ -945,6 +951,8 @@
 
 <script src="js/html5shiv.min.js" type="text/javascript"></script>
 
+    
+   
 
 </body>
 
