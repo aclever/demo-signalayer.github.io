@@ -1,0 +1,386 @@
+.navbar {
+  height: 100px;
+  background-color: transparent;
+}
+
+.navbar-container {
+  margin-top: 20px;
+}
+
+.navbar-item {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.hero-section {
+  height: 450px;
+  background-color: #eef1f8;
+}
+
+.hero-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu-icon {
+  margin-top: -10px;
+}
+
+.hero-header {
+  padding-top: 65px;
+  padding-left: 30px;
+  font-family: Montserrat, sans-serif;
+  color: #3bb18f;
+}
+
+.hero-subheader {
+  padding-left: 30px;
+  font-family: Bitter, serif;
+  color: #777;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.hero-button {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 15px 20px;
+  background-color: #3bb18f;
+  box-shadow: 1px 0 5px 0 rgba(0, 0, 0, .15);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.shopping-cart {
+  margin-top: -10px;
+}
+
+.search {
+  margin-top: -8px;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section.short {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  color: #444;
+  font-weight: 300;
+  text-align: center;
+}
+
+.section-subheader {
+  display: block;
+  width: 680px;
+  margin: 0px auto 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Bitter, serif;
+  color: #777;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.heading {
+  display: block;
+  margin-right: auto;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.form-block {
+  width: 312px;
+  float: right;
+}
+
+.text-field {
+  margin-top: 40px;
+  padding-left: 2px;
+  float: right;
+  border-style: none none solid;
+  border-bottom-width: 1px;
+  border-bottom-color: hsla(0, 0%, 100%, .15);
+  background-color: transparent;
+  font-family: Montserrat, sans-serif;
+  color: hsla(0, 0%, 100%, .5);
+}
+
+.text-field:focus {
+  border-bottom-color: hsla(0, 0%, 100%, .35);
+}
+
+.text-block {
+  width: 380px;
+  margin-top: 50px;
+  padding-left: 10px;
+  font-family: Montserrat, sans-serif;
+  color: hsla(0, 0%, 100%, .5);
+}
+
+.footer-row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.foot-row-column.right {
+  padding-right: 0px;
+}
+
+.foot-row-column.left {
+  padding-left: 0px;
+}
+
+.sneaker-name {
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.price {
+  padding-top: 5px;
+  font-family: Montserrat, sans-serif;
+  color: #3bb18f;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-button {
+  display: block;
+  width: 200px;
+  margin: 80px auto 25px;
+  padding: 15px 20px;
+  border: 2px solid #3bb18f;
+  background-color: transparent;
+  font-family: Montserrat, sans-serif;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.image {
+  display: inline-block;
+}
+
+.odd-section {
+  height: 450px;
+  padding-top: 25px;
+  background-color: #eef1f8;
+}
+
+.odd-section-button {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 15px 20px;
+  background-color: #3bb18f;
+  box-shadow: 1px 0 5px 0 rgba(0, 0, 0, .15);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.odd-section-header {
+  padding-top: 65px;
+  padding-left: 30px;
+  font-family: Montserrat, sans-serif;
+  color: #555;
+}
+
+.odd-section-header.black {
+  padding-top: 150px;
+  padding-left: 85px;
+  color: #231d1d;
+}
+
+.odd-section-image {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: 50px;
+}
+
+.section-article-name {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.section-article {
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-family: Bitter, serif;
+  color: #777;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.read-more {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #3bb18f;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.section-benefit {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  color: #3bb18f;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.benefit-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-benefit-description {
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-family: Bitter, serif;
+  color: #777;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.odd-section-2 {
+  height: 450px;
+  margin-bottom: 50px;
+  background-color: transparent;
+}
+
+.odd-section-header-copy {
+  padding-top: 65px;
+  padding-left: 30px;
+  font-family: Montserrat, sans-serif;
+  color: #555;
+}
+
+.odd-section-header-2-2 {
+  margin-top: 0px;
+  padding-left: 30px;
+  font-family: Montserrat, sans-serif;
+  color: #555;
+}
+
+.odd-section-header-2-2.blue {
+  padding-left: 85px;
+  color: #4a6ec3;
+}
+
+.odd-section-header-2-2.khaki {
+  padding-left: 85px;
+  color: #37673c;
+}
+
+.odd-section-header-2-2.grey {
+  padding-left: 85px;
+  color: #a4a4a4;
+}
+
+.odd-section-copy {
+  height: 450px;
+  padding-top: 25px;
+  background-color: #eef1f8;
+}
+
+.odd-section-3 {
+  height: 450px;
+  padding-top: 25px;
+  background-color: #eef1f8;
+}
+
+.odd-section-header-3 {
+  padding-top: 85px;
+  padding-left: 30px;
+  font-family: Montserrat, sans-serif;
+  color: #555;
+  text-align: center;
+}
+
+.odd-section-header-3.black {
+  padding-left: 85px;
+  color: #231d1d;
+}
+
+.hero-subheader-3 {
+  display: block;
+  width: 680px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  font-family: Bitter, serif;
+  color: #777;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.odd-section-button-3 {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 15px 20px;
+  background-color: #3bb18f;
+  box-shadow: 1px 0 5px 0 rgba(0, 0, 0, .15);
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+
+.odd-section-button-3.w--current {
+  display: block;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.odd-section-4 {
+  height: 450px;
+  margin-bottom: 100px;
+  background-color: transparent;
+}
+
+.section-4-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.odd-section-image-4 {
+  display: block;
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: 50px;
+}
